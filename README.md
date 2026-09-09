@@ -18,7 +18,8 @@ Create the production site with:
 npm run generate
 ```
 
-The deployable output is written to `.output/public`.
+Local generation writes to `.output/public`. On Netlify, Nuxt automatically
+selects its `netlify-static` preset and writes the deployable site to `dist`.
 
 ## Editing the story
 
@@ -59,7 +60,7 @@ publication.
 Connect this repository to a new Netlify site. `netlify.toml` supplies:
 
 - Build command: `npm run generate`
-- Publish directory: `.output/public`
+- Publish directory: `dist`
 - Node.js version: 22
 
 Nuxt Image uses Netlify Image CDN on deployment to deliver modern formats and
