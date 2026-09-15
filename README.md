@@ -23,8 +23,10 @@ selects its `netlify-static` preset and writes the deployable site to `dist`.
 
 ## Editing the story
 
-Most copy, image order, alt text, and captions live in `data/site.ts`. Before
-publishing:
+Most copy, image order, alt text, and captions live in `data/site.ts`. Each
+gallery photo has three caption lines (original, alternate, and your own). You
+can edit them on the page; drafts are saved in the browser via localStorage.
+Before publishing:
 
 1. Replace `hello@example.com` with the correct contact address.
 2. Replace `https://example.netlify.app` in `app.vue` with the final domain.

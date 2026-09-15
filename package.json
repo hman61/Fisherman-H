@@ -7,6 +7,7 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "media:video": "node scripts/build-video.mjs",
+    "media:photo-wall": "node scripts/build-photo-wall.mjs",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
