@@ -102,8 +102,8 @@ useHead({
         </div>
         <RefinedGallery :images="site.refinedGallery" />
       </section>
-<section id="album1" class="section" aria-labelledby="album-1"><video width="100%" height="auto" controls autoplay loop muted playsinline>
-  <source src="http://localhost:3000/video/Dishes-by-H.m4v" type="video/mp4">
+<section id="album1" class="section" aria-labelledby="album-1"><video width="100%" height="auto" controls loop muted playsinline>
+  <source src="https://fisherman-h.netlify.app/video/Dishes-by-H.m4v" type="video/mp4">
   Your browser does not support the video tag.
 </video></section>
       <section class="section section--photo-wall" aria-labelledby="photo-wall-title">
