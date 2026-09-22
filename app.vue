@@ -93,7 +93,7 @@ useHead({
         <PhotoGallery :images="site.gallery" />
       </section> -->
 
-      <section class="section section--refined" aria-labelledby="refined-title">
+      <section id="gallery" class="section section--refined" aria-labelledby="refined-title">
         <div class="section-heading">
           <div>
             <p class="eyebrow">The Journey, where nothing goes to waste</p>
@@ -108,25 +108,18 @@ useHead({
 </video></section>
       <section class="section section--photo-wall" aria-labelledby="photo-wall-title">
 
-        <!-- <div class="section-heading">
-          <div>
-            <p class="eyebrow">Bon Appétit</p>
-          </div>
-        </div> -->
+  
         <PhotoWall :portrait="portraitPhotos" :landscape="landscapePhotos" />
       </section>
 
       <section id="about" class="section about" aria-labelledby="about-title">
-        <div class="about__number" aria-hidden="true">25+</div>
+        <div class="about__number" style="font-size: clamp(2rem, 5vw, 4rem);" aria-hidden="true">Åland Islands meets Pacific Northwest</div>
         <div class="about__copy">
           <p class="eyebrow">Why MasterChef</p>
-          <h2 id="about-title">Experience taught me how to build. Cooking taught me why.</h2>
-          <p>
-            After more than 25 years creating for the web, I am ready to bring that same
-            curiosity, calm under pressure, and appetite for learning into the MasterChef
-            kitchen.
-          </p>
-          <blockquote>“{{ site.application }}”</blockquote>
+<h2 id="about-title">Experience taught me how to build. Cooking taught me why.</h2>
+<p>
+  After years of navigating tech stacks and culinary scenes from the Åland Islands to LA and the Pacific Northwest, I know how to perform under pressure. Software engineering gave me the structure, but cooking gives me the purpose and the passion. I’m bringing that curiosity and appetite for growth directly to the MasterChef kitchen.
+</p>          <blockquote>“{{ site.application }}”</blockquote>
           <a class="button" :href="site.email">Start a conversation</a>
         </div>
       </section>

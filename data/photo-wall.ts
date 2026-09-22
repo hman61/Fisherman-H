@@ -14,6 +14,12 @@ export const portraitPhotos: PhotoWallImage[] = [
     "height": 4029
   },
   {
+    "src": "/images/new-photos/Catching-Crayfish.jpg",
+    "alt": "Catching Crayfish",
+    "width": 1500,
+    "height": 2000
+  },
+  {
     "src": "/images/dish-3401.jpg",
     "alt": "dish 3401",
     "width": 1500,
@@ -22,18 +28,6 @@ export const portraitPhotos: PhotoWallImage[] = [
   {
     "src": "/images/dishes/plating-3164.jpg",
     "alt": "plating 3164",
-    "width": 1500,
-    "height": 2000
-  },
-  {
-    "src": "/images/new-photos/Catching-Crayfish.jpg",
-    "alt": "Catching Crayfish",
-    "width": 1500,
-    "height": 2000
-  },
-  {
-    "src": "/images/process-3109.jpg",
-    "alt": "process 3109",
     "width": 1500,
     "height": 2000
   },
@@ -48,13 +42,13 @@ export const portraitPhotos: PhotoWallImage[] = [
     "alt": "table 3007",
     "width": 1500,
     "height": 2000
+  },  {
+    "src": "/images/process-3109.jpg",
+    "alt": "process 3109",
+    "width": 1500,
+    "height": 2000
   },
-    {
-    "src": "/images/new-photos/Heading-to-dock.jpg",
-    "alt": "Heading to dock",
-    "width": 2337,
-    "height": 3622
-  },
+
 
 ]
 
@@ -66,22 +60,10 @@ export const landscapePhotos: PhotoWallImage[] = [
     "height": 1500
   },
   {
-    "src": "/images/catch-3092.jpg",
-    "alt": "catch 3092",
-    "width": 2000,
-    "height": 1500
-  },
-  {
     "src": "/images/cured-salmon.jpg",
     "alt": "cured salmon",
     "width": 2000,
     "height": 1336
-  },
-  {
-    "src": "/images/dish-3421.jpg",
-    "alt": "dish 3421",
-    "width": 2000,
-    "height": 1500
   },
   {
     "src": "/images/dish-3428.jpg",
@@ -90,44 +72,8 @@ export const landscapePhotos: PhotoWallImage[] = [
     "height": 1442
   },
   {
-    "src": "/images/dishes/4-Crispy-skin-rainbow-trout.jpeg",
-    "alt": "Crispy skin rainbow trout",
-    "width": 4032,
-    "height": 3024
-  },
-  {
-    "src": "/images/dishes/Cream-based-salmon-chowder-2.jpg",
-    "alt": "Cream based salmon chowder 2",
-    "width": 4032,
-    "height": 3024
-  },
-  {
-    "src": "/images/dishes/Cream-based-salmon-chowder.jpg",
-    "alt": "Cream based salmon chowder",
-    "width": 4032,
-    "height": 3024
-  },
-  {
-    "src": "/images/dishes/Local-Lobster-mushrooms.jpg",
-    "alt": "Local Lobster mushrooms",
-    "width": 4032,
-    "height": 3024
-  },
-  {
     "src": "/images/dishes/Rainbow-trout.jpg",
     "alt": "Rainbow trout",
-    "width": 4032,
-    "height": 3024
-  },
-  {
-    "src": "/images/dishes/Risotto-2.jpg",
-    "alt": "Risotto 2",
-    "width": 4032,
-    "height": 3024
-  },
-  {
-    "src": "/images/dishes/Simple-dark-rye-salmon-breakfast.jpg",
-    "alt": "Simple dark rye salmon breakfast",
     "width": 4032,
     "height": 3024
   },
@@ -138,50 +84,8 @@ export const landscapePhotos: PhotoWallImage[] = [
     "height": 1500
   },
   {
-    "src": "/images/new-photos/00-extra-photos/Duck-fritatta.jpg",
-    "alt": "Duck fritatta",
-    "width": 4032,
-    "height": 3024
-  },
-  {
-    "src": "/images/new-photos/00-extra-photos/More-vegetables.jpg",
-    "alt": "More vegetables",
-    "width": 4032,
-    "height": 3024
-  },
-  {
-    "src": "/images/new-photos/00-extra-photos/Preparing-Roe.jpg",
-    "alt": "Preparing Roe",
-    "width": 4032,
-    "height": 3024
-  },
-  {
-    "src": "/images/new-photos/00-extra-photos/Risotto-2.jpg",
-    "alt": "Risotto 2",
-    "width": 4032,
-    "height": 3024
-  },
-  {
-    "src": "/images/new-photos/00-extra-photos/Smoked-Perfection-2.jpg",
-    "alt": "Smoked Perfection 2",
-    "width": 4032,
-    "height": 3024
-  },
-  {
-    "src": "/images/new-photos/00-extra-photos/duck-sausage.jpg",
-    "alt": "duck sausage",
-    "width": 4032,
-    "height": 3024
-  },
-  {
     "src": "/images/new-photos/Clackamans-River-Crayfish.jpg",
     "alt": "Clackamans River Crayfish",
-    "width": 4032,
-    "height": 3024
-  },
-  {
-    "src": "/images/new-photos/Cocking-lobster-mushrooms.jpg",
-    "alt": "Cocking lobster mushrooms",
     "width": 4032,
     "height": 3024
   },
@@ -192,74 +96,14 @@ export const landscapePhotos: PhotoWallImage[] = [
     "height": 3024
   },
   {
-    "src": "/images/new-photos/Daugther-Chloe-First-mate.jpg",
-    "alt": "Daugther Chloe First mate",
-    "width": 4032,
-    "height": 3024
-  },
-  {
-    "src": "/images/new-photos/First-and-second-mate.jpeg",
-    "alt": "First and second mate",
-    "width": 4032,
-    "height": 3024
-  },
-  {
     "src": "/images/new-photos/Garden-Vegetables.jpg",
     "alt": "Garden Vegetables",
     "width": 1170,
     "height": 677
   },
   {
-    "src": "/images/new-photos/Mothersday-Gravlax.jpeg",
-    "alt": "Mothersday Gravlax",
-    "width": 4032,
-    "height": 3024
-  },
-  {
-    "src": "/images/new-photos/Preparing-Roe.jpg",
-    "alt": "Preparing Roe",
-    "width": 4032,
-    "height": 3024
-  },
-  {
     "src": "/images/new-photos/Salmon-Roe.jpg",
     "alt": "Salmon Roe",
-    "width": 4032,
-    "height": 3024
-  },
-  {
-    "src": "/images/new-photos/Simple-Salmon-toast.jpg",
-    "alt": "Simple Salmon toast",
-    "width": 4032,
-    "height": 3024
-  },
-  {
-    "src": "/images/new-photos/Smoked-Liver-2.jpg",
-    "alt": "Smoked Liver 2",
-    "width": 4032,
-    "height": 3024
-  },
-  {
-    "src": "/images/new-photos/Smoked-Perfection-2.jpg",
-    "alt": "Smoked Perfection 2",
-    "width": 4032,
-    "height": 3024
-  },
-  {
-    "src": "/images/new-photos/Smoked-Trout.jpg",
-    "alt": "Smoked Trout",
-    "width": 4032,
-    "height": 3024
-  },
-  {
-    "src": "/images/new-photos/Smoked-salmon-portions.jpg",
-    "alt": "Smoked salmon portions",
-    "width": 2870,
-    "height": 1850
-  },
-  {
-    "src": "/images/new-photos/red-chowder-2.jpg",
-    "alt": "red chowder 2",
     "width": 4032,
     "height": 3024
   },
@@ -269,10 +113,17 @@ export const landscapePhotos: PhotoWallImage[] = [
     "width": 2000,
     "height": 1500
   },
+  // {
+  //   "src": "/images/table-3348.jpg",
+  //   "alt": "table 3348",
+  //   "width": 2000,
+  //   "height": 1500
+  // },
   {
-    "src": "/images/table-3348.jpg",
-    "alt": "table 3348",
+    "src": "/images/dish-3421.jpg",
+    "alt": "dish 3421",
     "width": 2000,
     "height": 1500
-  }
+  },
+
 ]

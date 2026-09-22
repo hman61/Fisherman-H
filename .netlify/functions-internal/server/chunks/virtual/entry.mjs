@@ -1726,7 +1726,7 @@ var RefinedGallery_default = Object.assign(RefinedGallery_vue_vue_type_script_se
 //#endregion
 //#region data/site.ts
 var site = {
-	name: "Henrik Javen",
+	name: "Henrik Javén",
 	title: "River to Table",
 	description: "A personal food story shaped by patient days on the river, respect for ingredients, and the pleasure of cooking for others.",
 	email: "mailto:hello@example.com",
