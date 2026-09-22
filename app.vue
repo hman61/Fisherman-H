@@ -72,17 +72,17 @@ useHead({
         <span class="hero__scroll" aria-hidden="true">Scroll to follow the journey ↓</span>
       </section>
 
-      <section id="story" class="section story" aria-labelledby="story-title">
+      <section id="story" class="section story" style="background-color: var(--cream);" aria-labelledby="story-title">
         <div>
           <p class="eyebrow">My philosophy</p>
-          <h2 id="story-title">The best meals begin with a boat and a story.</h2>
+          <h2 id="story-title" style="font-size: clamp(3rem, 5vw, 6.5rem)">The best meals begin with a story.</h2>
         </div>
         <div class="story__copy">
           <p v-for="paragraph in site.story" :key="paragraph">{{ paragraph }}</p>
         </div>
       </section>
 
-      <section id="gallery" class="section section--gallery" aria-labelledby="gallery-title">
+      <!-- <section id="gallery" class="section section--gallery" aria-labelledby="gallery-title">
         <div class="section-heading">
           <div>
             <p class="eyebrow">The journey</p>
@@ -91,25 +91,28 @@ useHead({
           <p>Use the arrows, swipe, or select a frame to move through the story.</p>
         </div>
         <PhotoGallery :images="site.gallery" />
-      </section>
+      </section> -->
 
       <section class="section section--refined" aria-labelledby="refined-title">
         <div class="section-heading">
           <div>
-            <p class="eyebrow">Nothing goes to waste</p>
+            <p class="eyebrow">The Journey, where nothing goes to waste</p>
             <h2 id="refined-title">Catch, Refine, Cook and Enjoy</h2>
           </div>
         </div>
         <RefinedGallery :images="site.refinedGallery" />
       </section>
-
+<section id="album1" class="section" aria-labelledby="album-1"><video width="100%" height="auto" controls autoplay loop muted playsinline>
+  <source src="http://localhost:3000/video/Dishes by H.m4v" type="video/mp4">
+  Your browser does not support the video tag.
+</video></section>
       <section class="section section--photo-wall" aria-labelledby="photo-wall-title">
-        <div class="section-heading">
+
+        <!-- <div class="section-heading">
           <div>
-            <p class="eyebrow">Every piece</p>
-            <h2 id="photo-wall-title">The full photo wall.</h2>
+            <p class="eyebrow">Bon Appétit</p>
           </div>
-        </div>
+        </div> -->
         <PhotoWall :portrait="portraitPhotos" :landscape="landscapePhotos" />
       </section>
 

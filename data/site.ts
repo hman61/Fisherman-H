@@ -210,10 +210,6 @@ export const site = {
       alt: 'A spring Chinook salmon',
     },
     {
-      src: '/images/new-photos/every-piece-refined/2-Columbia-River-Catch.jpeg',
-      alt: 'A Columbia River catch',
-    },
-    {
       src: '/images/new-photos/every-piece-refined/3-Ready-to-fillet.jpeg',
       alt: 'A salmon ready to be filleted',
     },
@@ -226,8 +222,8 @@ export const site = {
       alt: 'Portions of smoked salmon',
     },
     {
-      src: '/images/new-photos/every-piece-refined/6-Scandinavian-Cured-Gravlax.jpeg',
-      alt: 'Scandinavian cured salmon gravlax',
+      src: '/images/new-photos/every-piece-refined/6-Scandinavian-Style-Cured-Gravlax.jpeg',
+      alt: 'Scandinavian style cured salmon gravlax',
     },
     {
       src: '/images/new-photos/every-piece-refined/9-Fresh-Salmon-Broth-Risotto.jpeg',
@@ -242,7 +238,7 @@ export const site = {
       alt: 'Hot smoked salmon liver',
     },
     {
-      src: '/images/new-photos/every-piece-refined/11-Crispy-skinn-tails.jpg',
+      src: '/images/new-photos/every-piece-refined/11-Crispy-skin-tails.jpg',
       alt: 'Crispy salmon skin tails',
     },
     {

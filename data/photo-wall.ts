@@ -8,10 +8,10 @@ export type PhotoWallImage = {
 
 export const portraitPhotos: PhotoWallImage[] = [
   {
-    "src": "/images/Fisherman-H.jpg",
-    "alt": "Fisherman H",
-    "width": 1461,
-    "height": 2411
+    "src": "/images/new-photos/00-extra-photos/2-Weighting-in.jpeg",
+    "alt": "Weighting in",
+    "width": 1884,
+    "height": 4029
   },
   {
     "src": "/images/dish-3401.jpg",
@@ -26,38 +26,8 @@ export const portraitPhotos: PhotoWallImage[] = [
     "height": 2000
   },
   {
-    "src": "/images/kitchen-3343.jpg",
-    "alt": "kitchen 3343",
-    "width": 1500,
-    "height": 2000
-  },
-  {
-    "src": "/images/new-photos/00-extra-photos/2-Weighting-in.jpeg",
-    "alt": "Weighting in",
-    "width": 1884,
-    "height": 4029
-  },
-  {
     "src": "/images/new-photos/Catching-Crayfish.jpg",
     "alt": "Catching Crayfish",
-    "width": 2148,
-    "height": 2691
-  },
-  {
-    "src": "/images/new-photos/Fisherman-H.jpg",
-    "alt": "Fisherman H",
-    "width": 1461,
-    "height": 2411
-  },
-  {
-    "src": "/images/new-photos/Heading-to-dock.jpg",
-    "alt": "Heading to dock",
-    "width": 2337,
-    "height": 3622
-  },
-  {
-    "src": "/images/plating-3164.jpg",
-    "alt": "plating 3164",
     "width": 1500,
     "height": 2000
   },
@@ -68,8 +38,8 @@ export const portraitPhotos: PhotoWallImage[] = [
     "height": 2000
   },
   {
-    "src": "/images/river-3309.jpg",
-    "alt": "river 3309",
+    "src": "/images/kitchen-3343.jpg",
+    "alt": "kitchen 3343",
     "width": 1500,
     "height": 2000
   },
@@ -78,7 +48,14 @@ export const portraitPhotos: PhotoWallImage[] = [
     "alt": "table 3007",
     "width": 1500,
     "height": 2000
-  }
+  },
+    {
+    "src": "/images/new-photos/Heading-to-dock.jpg",
+    "alt": "Heading to dock",
+    "width": 2337,
+    "height": 3622
+  },
+
 ]
 
 export const landscapePhotos: PhotoWallImage[] = [
@@ -113,8 +90,8 @@ export const landscapePhotos: PhotoWallImage[] = [
     "height": 1442
   },
   {
-    "src": "/images/dishes/4-Crispy-skinn-rainbow-trout.jpeg",
-    "alt": "Crispy skinn rainbow trout",
+    "src": "/images/dishes/4-Crispy-skin-rainbow-trout.jpeg",
+    "alt": "Crispy skin rainbow trout",
     "width": 4032,
     "height": 3024
   },
@@ -203,8 +180,8 @@ export const landscapePhotos: PhotoWallImage[] = [
     "height": 3024
   },
   {
-    "src": "/images/new-photos/Cocking-lobster-mushroms.jpg",
-    "alt": "Cocking lobster mushroms",
+    "src": "/images/new-photos/Cocking-lobster-mushrooms.jpg",
+    "alt": "Cocking lobster mushrooms",
     "width": 4032,
     "height": 3024
   },
