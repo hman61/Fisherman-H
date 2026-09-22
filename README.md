@@ -1,6 +1,6 @@
 # River to Table
 
-A one-page Nuxt portfolio telling Henrik Javen's River to Table story. It is
+A one-page Nuxt portfolio telling Henrik Javén's River to Table story. It is
 statically generated for a fast, low-maintenance Netlify deployment.
 
 ## Local development

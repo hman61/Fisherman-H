@@ -15,7 +15,7 @@ defineProps<{
 <template>
   <div class="photo-wall">
     <div v-if="portrait.length" class="photo-wall__group">
-      <h3 class="photo-wall__label">Bon Appétit</h3>
+      <h3 class="photo-wall__label">No Color, no flavor...</h3>
       <div class="photo-wall__grid photo-wall__grid--portrait">
         <NuxtImg
           v-for="image in portrait"

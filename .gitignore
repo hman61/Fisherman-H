@@ -143,3 +143,4 @@ vite.config.ts.timestamp-*
 .vite/
 public/.DS_Store
 public/video/.DS_Store
+public/images/.DS_Store
