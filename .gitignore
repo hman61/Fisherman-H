@@ -143,7 +143,3 @@ vite.config.ts.timestamp-*
 .vite/
 public/.DS_Store
 public/video/.DS_Store
-
-# temporary files
-#public/video/Dishes by H.m4v
-#public/video/Dishes-by-H.m4v
