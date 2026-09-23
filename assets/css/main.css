@@ -744,6 +744,7 @@ h2 {
     width: 68vw;
     height: 48vh;
     opacity: 0.82;
+    bottom: 8.75rem;
   }
 
   .hero__content h1,
@@ -751,6 +752,14 @@ h2 {
   .hero__content > a {
     max-width: 82%;
   }
+
+  .hero__content > p:not(.eyebrow) {
+  max-width: 15rem;
+  margin: 2rem 0;
+  font-size: clamp(1.05rem, 2vw, 1.3rem);
+  background-color: var(--cream);
+  padding: 0.5rem;
+}
 
   .story,
   .film,
