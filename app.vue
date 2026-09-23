@@ -42,7 +42,7 @@ useHead({
 
     <header class="site-header">
       <a class="brand" href="#" aria-label="River to Table, home">
-        <span class="brand__mark" aria-hidden="true">R/T</span>
+        <span class="brand__mark" aria-hidden="true" style="background-image: url('/favicon.jpeg');background-size: 130%;background-position: center;"></span>
         <span>River to Table</span>
       </a>
       <nav aria-label="Main navigation">
@@ -127,7 +127,7 @@ useHead({
 
     <footer class="site-footer">
       <a class="brand" href="#">
-        <span class="brand__mark" aria-hidden="true">R/T</span>
+        <span class="brand__mark" aria-hidden="true" style="background-image: url('/favicon.jpeg');background-size: 130%;background-position: center;"></span>
         <span>River to Table</span>
       </a>
       <p>Made with patience by {{ site.name }}.</p>
