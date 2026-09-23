@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { site } from '~/data/site'
+import { landscapePhotos, portraitPhotos } from '~/data/photo-wall'
 
 const canonicalUrl = 'https://example.netlify.app'
 
@@ -54,17 +55,16 @@ useHead({
     <main id="main">
       <section class="hero" aria-labelledby="hero-title">
         <NuxtImg
-          class="hero__image"
-          src="/images/river-at-sunset.jpg"
-          alt=""
-          width="2000"
-          height="1300"
-          sizes="100vw"
+          class="hero__portrait"
+          src="/images/Fisherman-H.jpg"
+          alt="Fisherman H"
+          width="1461"
+          height="2411"
+          sizes="(max-width: 760px) 68vw, 30vw"
           preload
         />
-        <div class="hero__overlay" />
         <div class="hero__content">
-          <p class="eyebrow">A MasterChef story by {{ site.name }}</p>
+          <p class="eyebrow">A story by Fisherman-H</p>
           <h1 id="hero-title">River<br>to Table</h1>
           <p>{{ site.description }}</p>
           <a class="button button--light" href="#story">Discover the story</a>
@@ -72,17 +72,17 @@ useHead({
         <span class="hero__scroll" aria-hidden="true">Scroll to follow the journey ↓</span>
       </section>
 
-      <section id="story" class="section story" aria-labelledby="story-title">
+      <section id="story" class="section story" style="background-color: var(--cream);" aria-labelledby="story-title">
         <div>
           <p class="eyebrow">My philosophy</p>
-          <h2 id="story-title">The best meals begin with a story.</h2>
+          <h2 id="story-title" style="font-size: clamp(3rem, 5vw, 6.5rem)">The best meals begin with a story.</h2>
         </div>
         <div class="story__copy">
           <p v-for="paragraph in site.story" :key="paragraph">{{ paragraph }}</p>
         </div>
       </section>
 
-      <section id="gallery" class="section section--gallery" aria-labelledby="gallery-title">
+      <!-- <section id="gallery" class="section section--gallery" aria-labelledby="gallery-title">
         <div class="section-heading">
           <div>
             <p class="eyebrow">The journey</p>
@@ -91,31 +91,35 @@ useHead({
           <p>Use the arrows, swipe, or select a frame to move through the story.</p>
         </div>
         <PhotoGallery :images="site.gallery" />
-      </section>
+      </section> -->
 
-      <section class="section film" aria-labelledby="film-title">
-        <div class="film__intro">
-          <p class="eyebrow">In motion</p>
-          <h2 id="film-title">A few minutes by the water.</h2>
-          <p>
-            Some stories are best allowed to unfold slowly. This film brings together
-            the places, ingredients, and plates that shape my cooking.
-          </p>
+      <section id="gallery" class="section section--refined" aria-labelledby="refined-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">The Journey, where nothing goes to waste</p>
+            <h2 id="refined-title">Catch, Refine, Cook and Enjoy</h2>
+          </div>
         </div>
-        <StoryVideo />
+        <RefinedGallery :images="site.refinedGallery" />
+      </section>
+<section id="album1" class="section" aria-labelledby="album-1"><video width="100%" height="auto" controls loop muted playsinline>
+  <source src="https://fisherman-h.netlify.app/video/Dishes-by-H.m4v" type="video/mp4">
+  Your browser does not support the video tag.
+</video></section>
+      <section class="section section--photo-wall" aria-labelledby="photo-wall-title">
+
+  
+        <PhotoWall :portrait="portraitPhotos" :landscape="landscapePhotos" />
       </section>
 
       <section id="about" class="section about" aria-labelledby="about-title">
-        <div class="about__number" aria-hidden="true">25+</div>
+        <div class="about__number" style="font-size: clamp(2rem, 5vw, 4rem);" aria-hidden="true">Åland Islands meets Pacific Northwest</div>
         <div class="about__copy">
           <p class="eyebrow">Why MasterChef</p>
-          <h2 id="about-title">Experience taught me how to build. Cooking taught me why.</h2>
-          <p>
-            After more than 25 years creating for the web, I am ready to bring that same
-            curiosity, calm under pressure, and appetite for learning into the MasterChef
-            kitchen.
-          </p>
-          <blockquote>“{{ site.application }}”</blockquote>
+<h2 id="about-title">Experience taught me how to build. Cooking taught me why.</h2>
+<p>
+  After years of navigating tech stacks and culinary scenes from the Åland Islands to LA and the Pacific Northwest, I know how to perform under pressure. Software engineering gave me the structure, but cooking gives me the purpose and the passion. I’m bringing that curiosity and appetite for growth directly to the MasterChef kitchen.
+</p>          <blockquote>“{{ site.application }}”</blockquote>
           <a class="button" :href="site.email">Start a conversation</a>
         </div>
       </section>
