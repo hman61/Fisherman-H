@@ -757,7 +757,7 @@ h2 {
   max-width: 15rem;
   margin: 2rem 0;
   font-size: clamp(1.05rem, 2vw, 1.3rem);
-  background-color: var(--cream);
+  background-color: #d9d2c4;
   padding: 0.5rem;
 }
 
