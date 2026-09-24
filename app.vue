@@ -65,7 +65,7 @@ useHead({
         />
         <div class="hero__content">
           <p class="eyebrow">A story by Fisherman-H</p>
-          <h1 id="hero-title">River<br>to Table</h1>
+          <h1 id="hero-title">River<br/>to Table</h1>
           <p>{{ site.description }}</p>
           <a class="button button--light" href="#story">Discover the story</a>
         </div>
